@@ -1,0 +1,154 @@
+/*img {
+    display: block;
+    border: 3px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+       
+
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato',sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: url(Anime_Background1.jpg) no-repeat center/cover ;
+    background-color: blueviolet;
+    
+}
+
+.container {
+
+    width: 1050px;
+    height: 500px;
+    text-align: center;
+    
+    padding:5px;
+}
+
+.main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 450px;
+       
+ }
+ 
+ 
+img {
+    position: relative;
+    max-width: 70%;
+    max-height: 100%;
+    margin-right: 2%;   
+    border: 5px solid rgb(200, 195, 195);
+    box-shadow: 0 0 10px rgb(200, 195, 195);
+    border-radius: 10px;
+    
+    
+}
+.button-area button {
+    margin-left: 5px;
+    margin-top: 10px;
+    
+     
+    
+}
+#btn {    
+    font-size: 1.3rem;
+    width: 170px;
+    height: 35px;  
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    transition: 0.5s;
+}
+#btn:hover {
+    cursor: pointer;
+    background-color:aquamarine;
+}
+
+.container .button-area-2 button {
+    position: absolute;
+    top: 43%;
+    /*margin-left: 175px;*/
+    left: 818px;
+    background-color: blueviolet;
+    
+}
+#btn-2 {
+    width: 30px;
+    height: 40px;  
+
+    font-size: 2rem;
+    background-color: transparent;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    transition: 1s;
+    
+    
+}
+#btn-2:hover{
+    cursor: pointer;
+    background-color: white;
+    color:blueviolet;
+
+}
+.container .button-area-3 button {
+    position: absolute;
+    top: 42%;
+    left:420px;
+    margin-right: 0;   
+}
+
+#btn-3 {
+    width: 30px;
+    height: 40px; 
+    font-size: 2rem;
+  
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+    transition: 0.4s;
+}
+
+#btn-3:hover{
+    cursor: pointer;
+    background-color: white;
+    color:blueviolet;
+
+}
+
+.circle-area{
+   
+   padding: 10px;
+   margin-right: 10px;
+}
+.circle-area .dot{
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+#dot1{
+    background-color: white;
+}
+h2 {
+    color: white;
+    margin-right: 25px;
+    font-family: "Sofia", sans-serif;
+   
+}
